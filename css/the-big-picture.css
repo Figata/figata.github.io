@@ -23,9 +23,9 @@ body{
 
 }
 
-
-.marker {
-    background: linear-gradient(transparent 30%, #ffff00 30%);
+.bg-primary {
+    background-color: yellow; !important;
+    color: black;
 }
 
 .footerNav {
