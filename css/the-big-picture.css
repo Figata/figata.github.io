@@ -4,13 +4,24 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-	margin-top: 50px;
-	margin-bottom: 50px;
-    background: url(../img/background.png) no-repeat center center fixed;
-    background-size: cover;
+html{
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
 }
 
+body{
+    /* Workaround for some mobile browsers */
+    min-height:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.full-background {
+    background: url(../img/background.png) no-repeat center center fixed;
+    background-size:cover;
+
+}
 
 
 .marker {
