@@ -7,13 +7,11 @@
 body {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background: none;
+    background: url(../img/background.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
-.full {
-  background: url(../img/background.png) no-repeat center center fixed;
-  background-size: cover;
-}
+
 
 .marker {
     background: linear-gradient(transparent 30%, #ffff00 30%);
